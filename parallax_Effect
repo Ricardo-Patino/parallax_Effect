@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<html>
+		<head>
+			<title>Lugares Turísticos</title>
+			<meta charset='UTF-8'>
+	   <style>
+           * {
+	           box-sizing: border-box;
+	           margin:     0;
+	           padding:    0;
+	       }
+
+	       p {
+               color:   #fff;
+           }
+
+	       .contenido {
+	           width:  100%;
+	       }
+
+	       .zona {
+	           max-width:      1080px;
+	           width:          100%;
+	           margin:         auto;
+	           padding:        32px;
+               font-family:    Tahoma;
+               font-size:      20px;
+	       }
+
+	       .centrado {
+               text-align:center;
+           }
+	
+           .negro {
+               background-color:    #252525;
+           }
+
+	       .parallax01 {
+		      height:                 500px;
+		      background-image:       url('anfiteatroDeVilla1.jpg');
+		      background-size:        cover;
+		      background-attachment:  fixed;
+	       }
+           
+           .parallax02 {
+               height:                 500px;
+               background-image:       url('banner02.jpg');
+               background-size:        cover;
+               background-attachment:  fixed;
+	       }
+		   .parallax03 {
+               height:                 500px;
+               background-image:       url('banner02.jpg');
+               background-size:        cover;
+               background-attachment:  fixed;
+	       }
+	</style>
+</head>
+<body>
+	<div class="contenido negro">
+		<div class="zona centrado">
+			<h1>Estas son imágenes de lugares que he visitado</h1>
+			<br>
+			<p>Anfiteatro de Villa está en SanataAna</p>
+		</div>
+	</div>
+	<div class="contenido">
+		<div class="parallax01"></div>
+	</div>
+	<div class="contenido negro">
+		<div class="zona centrado">
+			<p>Anfiteatro de Villa está en SanataAna</p>
+		</div>
+	</div>
+		<div class="contenido">
+		<div class="parallax02"></div>
+	</div>
+
+	<div class="contenido negro">
+		<div class="zona centrado">
+			<p>Zona 3 de la páguina</p>
+		</div>
+	</div>
+		<div class="contenido">
+		<div class="parallax03"></div>
+	</div>
+</body>
+</html>
